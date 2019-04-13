@@ -1,0 +1,424 @@
+body {
+    font-family: 'Aleo', serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+    -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+    display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+    -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+textarea {
+
+}
+
+/* Layout */
+.ba-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1110px;
+
+}
+
+header {
+    background: url("../img/header.jpg") center center no-repeat;
+    background-size: cover;
+    height: 820px;
+    width: 100%;
+
+}
+
+.hero__section {
+    position: relative;
+    height: 740px;
+}
+
+.hero__content {
+    margin: 250px auto 0 auto;
+    max-width: 750px;
+    height: 200px;
+}
+
+.hero__title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.hero__title h1 {
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.hero__title p {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.31em;
+}
+
+.hero__search {
+    padding: 2px;
+    width: 650px;
+    height: 60px;
+    background: #ffffff;
+    margin-bottom: 120px;
+}
+
+.hero__search input {
+    width: 495px;
+    height: 55px;
+    border: none;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: #999999;
+}
+
+.hero__search input:focus{
+    outline: none;
+}
+
+.hero__search button {
+    background: #5474fd;
+    width: 145px;
+    height: 55px;
+    border: none;
+    float: right;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 55px;
+}
+.fa-search{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.scroll {
+    text-align: center;
+}
+
+.scroll a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.header__menu {
+    height: 80px;
+    background: #5474fd;
+
+}
+
+.header__menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.logo a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 35px;
+}
+
+
+.menu, .logo {
+    padding-top: 30px;
+}
+
+
+/*why_choose_us__section*/
+
+.why_choose_us__section {
+    height: 685px;
+    width: 100%;
+    background: url("../img/choose_bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.why_us__content h2 {
+    font-size: 36px;
+    line-height: 26px;
+    margin-bottom: 70px;
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.why_us__content p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+    letter-spacing: 0.01em;
+    max-width: 540px;
+    color: #e8e8e8;
+
+}
+
+.why_us__content a {
+    display: block;
+    width: 225px;
+    height: 60px;
+    background: #5474fd;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.075em;
+    color: #ffffff;
+}
+
+.why_us__image {
+    text-align: center;
+}
+
+.image__mountain {
+    float: right;
+}
+
+/*How It Works*/
+
+.how_it_work__section {
+    background: #333333;
+    height: 340px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.how_it_work__item {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.how_it_work__item img {
+    margin-bottom: 20px;
+}
+
+/*spain*/
+
+.spain__home {
+    background: url("../img/spain_home.jpg") center center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.spain__content {
+    background: url("../img/spain_bg.png") center center no-repeat;
+    width: 540px;
+    height: 370px;
+    margin-top: 230px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.spain__title, .spain__subTitle, .spain__text {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 26px;
+    color: #ffffff;
+
+}
+
+.spain__subTitle {
+    font-size: 20px;
+    letter-spacing: 0.025em;
+    color: #e8e8e8;
+}
+
+.spain__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.spain__text {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #e8e8e8;
+}
+
+.spain__content a {
+    display: block;
+    width: 225px;
+    height: 60px;
+    background: #5474fd;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.075em;
+    color: #ffffff;
+}
+
+.spain__see {
+    background: url("../img/spain_see.jpg") center center no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.spain__see-right {
+    position: relative;
+}
+
+.spain__see .spain__content {
+    position: absolute;
+    right: 0;
+}
+
+
+/*Tourist Say*/
+
+.tourist_say__section {
+    background: url("../img/tourist_bg.jpg") center center no-repeat;
+    background-size: cover;
+    height: 730px;
+}
+
+.tourist__title{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin: 110px 0 90px 0;
+}
+
+.tourist__feedback{
+    height: 285px;
+    background: #333333;
+}
+
+.feedback__person{
+    background: url("../img/tourist_person.jpg") no-repeat;
+    width: 445px;
+    height: 284px;
+    float: left;
+    margin-right: 60px;
+}
+
+.feedback__content{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.feedback__title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.feedback__text{
+    font-size: 16px;
+    color: #e8e8e8;
+    line-height: 26px;
+    position: relative;
+
+}
+
+.fa-quote-left{
+    color: #5474fd;
+    vertical-align: super;
+    margin-right: 10px;
+}
+
+
+footer{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 270px;
+    background: #232323;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.footer__title{
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer__subTitle{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+
+.footer__content .fab:not(:last-child){
+    margin-right: 25px;
+}
+
+.fa-linkedin-in{
+    color: #5474fd;
+}
